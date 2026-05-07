@@ -160,9 +160,12 @@ button:focus {
 }
 
 .logo {
-  height: 1.4em !important;
-  width: 2.5em !important;
+  width: 4.5em !important;
+  height: auto !important;
+  max-width: 100%;
+  mix-blend-mode: screen;
 }
+
 
 .navbar-nav .nav-link {
   color: white !important;

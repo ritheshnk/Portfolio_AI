@@ -13,6 +13,7 @@ import {
   Navigate
 } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
+import Chatbot from "./components/Chatbot/Chatbot";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -42,6 +43,7 @@ function App() {
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />
+        <Chatbot />
       </div>
     </Router>
   );

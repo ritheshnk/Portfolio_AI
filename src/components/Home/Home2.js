@@ -3,6 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 
+const startYear = 2023;
+const currentYear = new Date().getFullYear();
+const experience = currentYear - startYear;
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
@@ -13,17 +16,17 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I’m a Software Engineer who loves transforming ideas into
-              reliable, scalable products. Over time, I’ve explored several
-              technologies and found my passion in building high-performance
-              systems and intuitive user experiences.
+              I’m a Software Engineer with {experience} years of experience in
+              Backend AI development and Test Automation. Skilled in building scalable enterprise
+              applications using Spring Boot, Spring AI, and Java. Strong background in Cloud technologies (Azure)
+              and QA automation frameworks and Spring Boot.
               <br />
               <br />
               I’m proficient in
               <i>
                 <b className="purple">
                   {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
+                  React, Java, Spring Boot, Spring AI, Azure, Selenium, TestNG{" "}
                 </b>
               </i>
               — and I enjoy working across both backend and frontend stacks.
@@ -33,7 +36,7 @@ function Home2() {
               <i>
                 <b className="purple">
                   {" "}
-                  Web Applications, Blockchain Solutions,{" "}
+                  Web Applications, Building AI Solutions,{" "}
                 </b>
               </i>
               and exploring new ways to bridge on-chain and off-chain systems.
@@ -43,7 +46,7 @@ function Home2() {
               <b className="purple"> Node.js </b> and modern frameworks like{" "}
               <i>
                 <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
+                <b className="purple">Java</b>.
               </i>
             </p>
           </Col>
