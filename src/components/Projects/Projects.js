@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import editor from "../../Assets/Projects/codeEditor.png";
 import NorthernTrust from "../../Assets/Projects/NTLogo.jpg";
 import AIChatBot from "../../Assets/Projects/aiChatBot.webp";
 import CoderGym from "../../Assets/codersgym.png";
